@@ -1,0 +1,9 @@
+html,body,#root { height: 100%; margin: 0; font-family: Inter, Arial, sans-serif; background:#071233; color:#fff }
+.app { padding: 16px; max-width: 1200px; margin: 0 auto; }
+.controls { display:flex; gap:8px; margin-top:8px; align-items:center }
+.btn { background:#e11d48; color:#fff; padding:8px 12px; border-radius:6px; cursor:pointer; border:none }
+.panel { background: rgba(255,255,255,0.04); padding:12px; border-radius:8px }
+.score { font-weight:600 }
+.toggle { background:#111827; padding:6px 8px; border-radius:6px }
+.timing-bar { height:14px; background:#222; border-radius:8px; overflow:hidden; position:relative; cursor:pointer }
+.timing-bar .pulse { position:absolute; left:0; top:0; bottom:0; width:10%; background:linear-gradient(90deg,#34d399,#60a5fa); }
